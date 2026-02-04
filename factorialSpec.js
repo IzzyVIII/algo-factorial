@@ -1,4 +1,12 @@
-const factorial = require("./factorial.js");
+//const factorial = require("./factorial.js");
+//ITERATION
+function factorial(n){
+    let result= 1;
+    for (let i = 1; i<=n; i++){
+        result*=i;
+    }
+    return result;
+}
 
 console.log(factorial(0) === 1);
 console.log(factorial(1) === 1);
